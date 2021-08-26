@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/17/14/48/sea-6553205__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 230%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+   
+}
+h2{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(5, 5, 5);
+    background-color: #b93742;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 0 auto;
+    display: block;
+
+    margin-top: 40px;
+
+    
+}
+button:hover{
+    background-color: #915050;
+   
+  }
+  button:active {
+    background-color: #915050;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
